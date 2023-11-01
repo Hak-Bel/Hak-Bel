@@ -81,7 +81,8 @@ a {
 
 .box {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
   gap: 4px;
 }
@@ -90,16 +91,16 @@ a {
   background: #5b5b5b;
   color: white;
   border-radius: 32px;
-  width: 15vw;
+  width: 25vw;
   max-width: 20vw;
   min-width: 10vw;
-  height: 15vw;
+  height: 17vw;
   min-height: 10vw;
   max-height: 20vw;
   transition: all 0.6s ease;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -113,11 +114,15 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 32px;
-  line-height: 6vw; /* Interlignage */
 }
 
 .card:hover {
   transform: scale(0.9);
+}
+#card-composant {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
 }
 
 .hero {
@@ -172,7 +177,7 @@ li {
   color: #fff;
   display: block;
   text-decoration: none;
-  font-family: "sansationregular";
+  font-family: "guildof";
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smooth: antialiased;
@@ -280,89 +285,89 @@ li {
 .nav-menu li .active .back,
 .nav-menu li a:hover .front,
 .nav-menu li a:hover .back {
-  background-color: #51938f;
+  background-color: #393939;
   -webkit-background-size: 5px 5px;
   background-size: 5px 5px;
   background-position: 0 0, 30px 30px;
   background-image: -webit-linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     ),
     linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     );
   background-image: -moz-linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     ),
     linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     );
   background-image: -ms-linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     ),
     linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     );
   background-image: -o-linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     ),
     linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     );
   background-image: linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     ),
     linear-gradient(
       45deg,
-      #478480 25%,
+      #393939 25%,
       transparent 25%,
       transparent 75%,
-      #478480 75%,
-      #478480
+      #393939 75%,
+      #393939
     );
 }
 .nav-menu ul {
