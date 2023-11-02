@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "guildof";
-  src: url(Fonts/guildof.ttf);
+  font-family: "Caveat-Mediums";
+  src: url(Fonts/static/Caveat-Medium.ttf);
 }
 @import url("https://www.w3cplus.com/demo/css3/base.css");
 
 html,
 body {
-  font-family: "guildof";
+  font-family: "Caveat-Mediums";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,8 +18,19 @@ h2 {
   font-weight: 900;
   text-transform: uppercase;
 }
-.third-h2 {
+.box h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
   font-size: 40px;
+  margin: 100px;
+}
+.third-h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 40px;
+  margin: 100px;
 }
 p {
   font-size: 30px;
@@ -107,9 +118,8 @@ a {
   align-items: center;
   text-transform: uppercase;
   gap: 16px;
-  -webkit-box-shadow: -4px 4px 28px 0px rgba(66, 68, 90, 1);
-  -moz-box-shadow: -4px 4px 28px 0px rgba(66, 68, 90, 1);
-  box-shadow: -4px 4px 28px 0px rgba(66, 68, 90, 1);
+  -webkit-box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.49);
+  box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.49);
 }
 
 .card img {
@@ -152,7 +162,46 @@ a {
   font-weight: 400;
   margin: 0;
 }
-
+.simple {
+  display: flex;
+  width: 90%;
+  margin-top: 100px;
+}
+.simple img {
+  display: flex;
+  width: 350px;
+  max-width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
+.simple p {
+  display: flex;
+  font-size: 35px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.simple2 {
+  display: flex;
+  width: 90%;
+  margin-top: 100px;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+.simple2 img {
+  display: flex;
+  width: 350px;
+  max-width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
+.simple2 p {
+  display: flex;
+  font-size: 35px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
 ul,
 li {
   list-style: none outside none;
@@ -185,7 +234,7 @@ div#nav {
   color: #fff;
   display: block;
   text-decoration: none;
-  font-family: "guildof";
+  font-family: "Caveat-Mediums";
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smooth: antialiased;
