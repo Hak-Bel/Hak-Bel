@@ -217,7 +217,6 @@ div#nav {
 }
 .nav-menu {
   display: flex;
-  background: #ffffff;
   width: 100%;
   margin: 0;
 }
