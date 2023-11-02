@@ -7,13 +7,10 @@
 html,
 body {
   font-family: "guildof";
-}
-
-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  margin: 0 auto;
 }
 
 h1,
@@ -21,7 +18,12 @@ h2 {
   font-weight: 900;
   text-transform: uppercase;
 }
-
+.third-h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+}
 a {
   text-decoration: none;
 }
@@ -150,19 +152,25 @@ a {
   font-weight: 400;
   margin: 0;
 }
-body {
-  background-color: #edecec;
-}
+
 ul,
 li {
   list-style: none outside none;
+  padding: 0%;
+  margin: 0%;
 }
 /* basic menu styles */
+div#nav {
+  display: flex;
+  position: absolute;
+
+  padding: 0;
+}
 .nav-menu {
-  display: block;
+  display: flex;
   background: #ffffff;
   width: 100%;
-  margin: 50px 0 150px;
+  margin: 0;
 }
 .nav-menu > li {
   display: inline;
