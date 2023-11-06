@@ -1,0 +1,25 @@
+.hero {
+  width: calc(100vw - 17px);
+  height: 100vh;
+  display: flex;
+  background: azure;
+  background-image: url(/img/peakCoupé.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 5vw;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 2vw;
+  font-weight: 400;
+  margin: 0;
+}

@@ -1,0 +1,173 @@
+@import url("https://www.w3cplus.com/demo/css3/base.css");
+@import url("card.css");
+@import url("hero.css");
+@import url("navbar.css");
+@font-face {
+  font-family: "Minimal";
+  src: url("Fonts/static/Minimal.woff");
+}
+
+html,
+body {
+  font-family: "Minimal";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+div.footer {
+  background-image: url("/img/planteminimalist.jpg");
+  display: flex;
+  align-items: center;
+  width: calc(100vw - 17px);
+  height: 50vh;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+div.footer a {
+  color: white;
+  font-size: 40px;
+}
+footer a {
+  display: flex;
+  font-size: 70px;
+  color: white;
+  justify-content: center;
+}
+.box h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 40px;
+  margin: 100px;
+}
+.third-h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 40px;
+  margin: 100px;
+}
+p {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+.button {
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background-color: #6a6a6a;
+  color: #fff;
+  border: 2px solid #ffffff;
+}
+
+.primary:hover {
+  background-color: #393939;
+  border: 2px solid #ffffff;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #6a6a6a;
+  border: 2px solid #6a6a6a;
+}
+
+.secondary:hover {
+  border: 2px solid;
+  color: #393939;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: solid 2px #000;
+}
+
+.link {
+  color: #000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: #5b5b5b;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.simple {
+  display: flex;
+  width: 90%;
+  margin-top: 100px;
+}
+.simple img {
+  display: flex;
+  width: 400px;
+  max-width: 300px;
+  height: 400px;
+  margin-left: 20px;
+}
+.simple p {
+  display: flex;
+  font-size: 35px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+.simple2 {
+  display: flex;
+  width: 90%;
+  margin-top: 100px;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+.simple2 img {
+  display: flex;
+  width: 400px;
+  max-width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
+.simple2 p {
+  display: flex;
+  font-size: 35px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+ul,
+li {
+  list-style: none outside none;
+  padding: 0%;
+  margin: 0%;
+}
