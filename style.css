@@ -1,22 +1,45 @@
 @font-face {
-  font-family: "Caveat-Mediums";
-  src: url(Fonts/static/Caveat-Medium.ttf);
+  font-family: "Minimal";
+  src: url("Fonts/static/Minimal.woff");
 }
 @import url("https://www.w3cplus.com/demo/css3/base.css");
 
 html,
 body {
-  font-family: "Caveat-Mediums";
+  font-family: "Minimal";
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  background-color: grey;
 }
 
 h1,
 h2 {
   font-weight: 900;
   text-transform: uppercase;
+}
+
+footer img {
+  width: 98.9vw;
+  height: 100vh;
+  display: flex;
+  background: azure;
+  background-image: url(img/peakCoupé.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+}
+footer a {
+  display: flex;
+  font-size: 70px;
+  color: white;
+  justify-content: center;
 }
 .box h2 {
   display: flex;
@@ -203,25 +226,7 @@ a {
   justify-content: space-between;
   margin: 100px 0;
 }
-.simple3 {
-  display: flex;
-  width: 90%;
-  margin-top: 100px;
-}
-.simple3 img {
-  display: flex;
-  width: 400px;
-  max-width: 300px;
-  height: auto;
-  margin-left: 20px;
-}
-.simple3 p {
-  display: flex;
-  font-size: 35px;
-  text-align: center;
-  justify-content: space-between;
-  margin: 100px 0;
-}
+
 ul,
 li {
   list-style: none outside none;
