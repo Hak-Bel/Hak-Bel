@@ -20,20 +20,18 @@ h2 {
   text-transform: uppercase;
 }
 
-footer img {
-  width: 98.9vw;
-  height: 100vh;
+div.footer {
+  background-image: url("img/planteminimalist.jpg");
   display: flex;
-  background: azure;
-  background-image: url(img/peakCoupé.jpg);
-  background-position: center;
-  background-size: cover;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
   align-items: center;
+  width: calc(100vw - 17px);
+  height: 50vh;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+div.footer a {
   color: white;
-  margin-top: 50px;
+  font-size: 40px;
 }
 footer a {
   display: flex;
@@ -162,7 +160,7 @@ a {
 }
 
 .hero {
-  width: 98.9vw;
+  width: calc(100vw - 17px);
   height: 100vh;
   display: flex;
   background: azure;
