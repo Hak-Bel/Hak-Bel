@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Minimal";
+  src: url("/Fonts/static/Minimal.woff");
+}
 /* basic menu styles */
 div#nav {
   display: flex;
@@ -23,7 +27,6 @@ div#nav {
   color: #fff;
   display: block;
   text-decoration: none;
-  font-family: "Caveat-Mediums";
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smooth: antialiased;

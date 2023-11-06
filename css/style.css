@@ -4,7 +4,7 @@
 @import url("navbar.css");
 @font-face {
   font-family: "Minimal";
-  src: url("Fonts/static/Minimal.woff");
+  src: url("/Fonts/static/Minimal.woff");
 }
 
 html,
@@ -19,8 +19,10 @@ body {
 
 h1,
 h2 {
+  letter-spacing: 5px;
   font-weight: 900;
   text-transform: uppercase;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 div.footer {
@@ -49,6 +51,7 @@ footer a {
   font-size: 40px;
   margin: 100px;
 }
+
 .third-h2 {
   display: flex;
   width: 100%;
@@ -170,4 +173,20 @@ li {
   list-style: none outside none;
   padding: 0%;
   margin: 0%;
+}
+
+.text-and-image {
+  display: flex;
+  gap: 2rem;
+  margin: 4rem;
+}
+.text-and-image img {
+  width: 50%;
+}
+.text-and-image.reverse {
+  flex-direction: row-reverse;
+}
+
+.container {
+  padding: 0 10%;
 }

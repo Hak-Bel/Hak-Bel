@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Minimal";
+  src: url("/Fonts/static/Minimal.woff");
+}
 .card {
   background: #5b5b5b;
   color: white;
@@ -15,7 +19,6 @@
   align-content: center;
   align-items: center;
   text-transform: uppercase;
-  border: #000 1px solid;
   gap: 16px;
   -webkit-box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.49);
   box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.49);
@@ -30,8 +33,26 @@
 .card:hover {
   transform: scale(0.9);
 }
+
+.box p {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
 #card-composant {
   display: flex;
   width: 100%;
-  flex-direction: row;
+}
+
+#services #card-composant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card.imgage {
+  display: flex;
+  margin: 0;
+  justify-content: flex-start;
 }

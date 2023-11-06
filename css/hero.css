@@ -1,9 +1,12 @@
+@font-face {
+  font-family: "Minimal";
+  src: url("/Fonts/static/Minimal.woff");
+}
 .hero {
   width: calc(100vw - 17px);
   height: 100vh;
   display: flex;
   background: azure;
-  background-image: url(/img/peakCoupé.jpg);
   background-position: center;
   background-size: cover;
   flex-direction: column;
@@ -13,13 +16,24 @@
   color: white;
 }
 
+.hero.homepage {
+  background-image: url(/img/peakCoupé.jpg);
+}
+
+.hero.services {
+  background-image: url(/img/Landscape-BW.jpg);
+  width: calc(100vw - 17px);
+}
+
 .hero h1 {
   font-size: 5vw;
   margin: 0;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .hero h2 {
   font-size: 2vw;
   font-weight: 400;
   margin: 0;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
