@@ -9,6 +9,7 @@
 
 html,
 body {
+  width: 100%;
   font-family: "Minimal";
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@ body {
 
 h1,
 h2 {
+  display: flex;
   letter-spacing: 5px;
   font-weight: 900;
   text-transform: uppercase;
@@ -189,4 +191,8 @@ li {
 
 .container {
   padding: 0 10%;
+}
+
+.background-p {
+  background-color: #fff;
 }
