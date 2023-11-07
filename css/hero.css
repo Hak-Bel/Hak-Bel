@@ -44,24 +44,33 @@
   background-image: url(/img/bia-w-a-PO8Woh4YBD8-unsplash.jpg);
 }
 
-.product1 {
+.product-box {
   width: calc(100vw - 17px);
   display: flex;
   justify-content: flex-start;
+  border-radius: 5px;
 }
-.product2 {
-  width: calc(100vw - 17px);
-  display: flex;
+.product-box.reverse {
   justify-content: flex-end;
 }
-.product3 {
-  width: calc(100vw - 17px);
-  display: flex;
-  justify-content: flex-start;
+
+.product-box img {
+  border-radius: 10px;
 }
 
-.defprod p {
+.product-box p {
   display: flex;
   text-align: center;
-  margin-top: 15rem;
+  align-items: center;
+  margin: 5%;
+}
+
+.product-box a {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.product-box a:hover {
+  background-color: #fff salmon;
 }
