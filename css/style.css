@@ -67,50 +67,6 @@ p {
 a {
   text-decoration: none;
 }
-
-.buttons-container {
-  display: flex;
-  gap: 16px;
-}
-
-.button {
-  font-weight: 500;
-  text-transform: capitalize;
-  text-align: center;
-  border-radius: 8px;
-  padding: 8px 16px;
-  transition: all 0.3s ease;
-}
-
-.primary {
-  background-color: #6a6a6a;
-  color: #fff;
-  border: 2px solid #ffffff;
-}
-
-.primary:hover {
-  background-color: #393939;
-  border: 2px solid #ffffff;
-}
-
-.secondary {
-  background-color: transparent;
-  color: #6a6a6a;
-  border: 2px solid #6a6a6a;
-}
-
-.secondary:hover {
-  border: 2px solid;
-  color: #393939;
-}
-
-.avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: solid 2px #000;
-}
-
 .link {
   color: #000;
   font-weight: 500;

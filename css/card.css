@@ -43,16 +43,3 @@
   display: flex;
   width: 100%;
 }
-
-#services #card-composant {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.card.imgage {
-  display: flex;
-  margin: 0;
-  justify-content: flex-start;
-}
